@@ -1,0 +1,3 @@
+
+#create IoT hub 
+az iot hub create --name iotHubTeam4 --resource-group OpenHack-IoT-Data-Team004-RG --sku S1
