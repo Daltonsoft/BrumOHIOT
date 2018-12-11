@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hacker1Device-TurnstileSim", "Hacker1Device-TurnstileSim\Hacker1Device-TurnstileSim.csproj", "{608A9112-6AAE-42A7-9DF1-D2490596A966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0EA9977-B9B2-4C83-8FA1-89E8BDEEA73D}
+	EndGlobalSection
+EndGlobal
