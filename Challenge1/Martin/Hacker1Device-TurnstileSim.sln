@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hacker1Device-TurnstileSim", "Hacker1Device-TurnstileSim\Hacker1Device-TurnstileSim.csproj", "{608A9112-6AAE-42A7-9DF1-D2490596A966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hacker1-Monitor", "Hacker1-Monitor\Hacker1-Monitor.csproj", "{F47FD806-2467-4726-8F3B-67D56EF790C6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{608A9112-6AAE-42A7-9DF1-D2490596A966}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F47FD806-2467-4726-8F3B-67D56EF790C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F47FD806-2467-4726-8F3B-67D56EF790C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F47FD806-2467-4726-8F3B-67D56EF790C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F47FD806-2467-4726-8F3B-67D56EF790C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
