@@ -26,8 +26,8 @@ namespace Hacker1Device_TurnstileSim
 
         static async Task SendEventAsync()
         {
-            var uri = "https://iotHubTeam4-Martin.azure-devices.net/devices/Hacker1Device/messages/events?api-version=2016-02-03";
-            var sas = "SharedAccessSignature sr=iotHubTeam4-Martin.azure-devices.net%2Fdevices%2FHacker1Device&sig=U%2BDsHTk9KNfxS9r6ep8nKbtorti8jVkEvuA63uSmwx0%3D&se=1544538219";
+            var uri = "https://iotHubTeam4.azure-devices.net/devices/Hacker1Device/messages/events?api-version=2016-02-03";
+            var sas = "SharedAccessSignature sr=iotHubTeam4.azure-devices.net%2Fdevices%2FHacker1Device&sig=K9aHqSTzuVw5w5hlC67a%2FR0dwpHETqCRp1BzuoGEkLc%3D&se=1544540157";
 
             using (var client = new HttpClient())
             {
