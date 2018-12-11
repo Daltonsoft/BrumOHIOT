@@ -12,7 +12,6 @@ namespace Hacker1Device_TurnstileSim
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Press ESC to stop");
             do
             {
@@ -34,15 +33,10 @@ namespace Hacker1Device_TurnstileSim
             {
                 client.BaseAddress = new Uri(uri);
                 client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", sas);
-
                 var data = new PostData() { entryTime = DateTime.UtcNow, ticketId = Guid.NewGuid().ToString() };
-
-                HttpContent contentPost = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json");
-
+                var dataJson = JsonConvert.SerializeObject(data);
+                var contentPost = new StringContent(dataJson, Encoding.UTF8, "application/json");
                 var response = await client.PostAsync(uri, contentPost);
-
-                var responseString = await response.Content.ReadAsStringAsync();
-
                 if (response.IsSuccessStatusCode)
                 {
                     Console.WriteLine($"Sent {data.ticketId} sucesfully");
