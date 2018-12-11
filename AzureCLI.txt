@@ -60,8 +60,8 @@ iothubteam4
 az iot hub policy show --name iothubowner --query primaryKey --hub-name iotHubTeam4
 "5KI7ix7zs7T6H/KXaBhyl6J0OlTECXRAkI8qPEs6nkA="
 
-
-
+# Monitoring event via Azure CLI 
+az iot hub monitor-events --device-id Hacker6Device --hub-name iotHubTeam4
 
 Useful links : 
 
